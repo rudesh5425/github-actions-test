@@ -21,7 +21,7 @@ jobs:
           path: ~/.npm
           key: cache-b93e380
 
-      - name: Prime cache-b93e380
+      - name: prime-cache-b93e380
         run: |
           if [ -n "${{ steps.cache-step.outputs.cache-hit }}" ]; then
             echo "Cache hit!"
